@@ -8,14 +8,14 @@ let l3;
 let imgC, imgl1, imgl2, imgl3;
 let critter;
 let leaf1;
-let wc;
+//let wc;
 
 function preload() {
   imgC = loadImage("critter.png");
   imgl1 = loadImage("leaf1.png");
   imgl2 = loadImage("leaf2.png");
   imgl3 = loadImage("leaf3.png");
-  wc = loadImage("wordcloud.png");
+  //wc = loadImage("wordcloud.png");
 }
 
 function setup() {
@@ -77,7 +77,7 @@ function setup() {
 
 function draw() {
   background("#242A43");
-  image(wc, width / 2, height / 2, 1.3 * wc.width, 0.9 * wc.height);
+  //image(wc, width / 2, height / 2, 1.3 * wc.width, 0.9 * wc.height);
   // console.log(wc);
   critter.position.x = mouseX;
   critter.position.y = mouseY;
